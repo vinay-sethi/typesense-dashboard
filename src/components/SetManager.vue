@@ -86,7 +86,7 @@
     </template>
   </q-table>
 
-  <q-dialog v-model="editor.open" persistent>
+  <q-dialog v-model="editor.open" persistent transition-show="none" transition-hide="none">
     <q-card class="column" style="width: 900px; max-width: 95vw; height: 80vh">
       <q-card-section class="q-pb-sm">
         <div class="text-h6">
